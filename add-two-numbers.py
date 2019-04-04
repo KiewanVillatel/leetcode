@@ -18,8 +18,8 @@ class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         res = None
         previousNode = None
-        carry=0
-        while l1!= None or l2 != None or carry!=0:
+        carry = 0
+        while l1 != None or l2 != None or carry != 0:
             sumDigit = carry
             if l1 is not None:
                 sumDigit += l1.val
@@ -39,4 +39,3 @@ class Solution:
             if l2 is not None:
                 l2 = l2.next
         return res
-
