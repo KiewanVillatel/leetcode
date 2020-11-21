@@ -1,2 +1,2 @@
 # leetcode
-Contains solutions for coding problems on https://leetcode.com/
+Contains python solutions for some coding problems proposed on https://leetcode.com/
